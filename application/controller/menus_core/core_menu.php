@@ -1,21 +1,5 @@
 
-
 <?php
-
-
-    $ARRAY_HOME_PERMMIS = [
-        'URL'     => '',
-        'ACTIVE'  => '',
-        'PERMISO' => '',
-    ];
-
-
-?>
-
-
-
-<?php
-
 
 
     function MENUS_CORES()
@@ -75,13 +59,19 @@
                 </nav>
             </header>
 
+
+            <!-- ============================================================== -->
+            <!-- PERMMISOS DE MODULOS -->
+            ' . MENU_CORE_PERMMIS() . '
+            
+            
+            
         ';
 
 
         return $MENUS_ADMIN;
 
     }
-
 
     function nav_float_right()
     {
@@ -180,8 +170,6 @@
         return $nav;
     }
 
-
-
     function nav_link_UsuarioPerfil()
     {
 
@@ -223,7 +211,6 @@
         return $nav;
     }
 
-
     function nav_CreateNew()
     {
 
@@ -254,6 +241,66 @@
 
     function MENU_CORE_PERMMIS()
     {
+
+        #SE INGRESA LOS PERMISOS DE LOS MODULOS ACTIVADOS
+
+        $ARRAY_INICIO_PERMMIS = [
+            'URL'     => DOCUMENT_HTTP .'?security='.KEY_SECURITY.'&view=main_inicio',
+            'ACTIVE'  => '',
+            'PERMISO' => '',
+        ];
+
+        $ARRAY_TERCEROS_PERMMIS = [
+            'URL'     => DOCUMENT_HTTP .'/system/terceros/index.php?security='.KEY_SECURITY.'&view=listprincipal',
+            'ACTIVE'  => '',
+            'PERMISO' => '',
+        ];
+
+
+
+
+        $Menus_Permmis_Modules = '
+                
+                
+                <aside class="left-sidebar" data-sidebarbg="skin5">
+                    <div class="scroll-sidebar">
+                        <!-- Sidebar navigation-->
+                        <nav class="sidebar-nav">
+                            <ul id="sidebarnav" class="p-t-30">
+                               
+                               
+                                <li class="sidebar-item"> 
+                                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="'. $ARRAY_INICIO_PERMMIS['URL'] .'" aria-expanded="false">
+                                    <i class="mdi mdi-view-dashboard"></i><span class="hide-menu"><b> &nbsp; INICIO</b></span>
+                                    </a>
+                                </li>
+                                
+                                <li class="sidebar-item"> 
+                                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="'. $ARRAY_TERCEROS_PERMMIS['URL'] .'" aria-expanded="false">
+                                    <i class="fas fa-users"></i><span class="hide-menu"><b> &nbsp; TERCEROS</b></span>
+                                    </a>
+                                </li>
+                                
+                                <!--
+                                <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Forms </span></a>
+                                    <ul aria-expanded="false" class="collapse  first-level">
+                                        <li class="sidebar-item"><a href="form-basic.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Form Basic </span></a></li>
+                                        <li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Form Wizard </span></a></li>
+                                    </ul>
+                                </li> -->
+                                
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </aside>
+                
+                
+        ';
+
+
+        return $Menus_Permmis_Modules;
+
 
     }
 

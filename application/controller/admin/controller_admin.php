@@ -66,6 +66,13 @@ function HEAD_LINK(){
             
         </head>
         
+        <style>
+            /*contenedor centro col bootstrap*/
+            .col-centered{
+                float: none;
+                margin: 0 auto;
+            }
+        </style>
         
      
     ';
@@ -105,6 +112,16 @@ function FOOTER_LINK(){
 
 
     return $footer;
+}
+
+
+function PERMMIS_SECURITY( $key )
+{
+    if( $key != md5('PRINCIPAL_VISTAS_GESTIONINVENTARIO_APP') )
+    {
+        echo 'PERMISO DENEGADO';
+        die();
+    }
 }
 
 

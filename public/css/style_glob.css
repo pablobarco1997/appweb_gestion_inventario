@@ -1,0 +1,24 @@
+*{
+    font-size: 0.9rem;
+}
+ul.list-inline-menu{
+    background-color: #e9ecef;
+}
+table.table thead.thead-light tr th{
+    padding: 9px;
+}
+table.table tbody tr td{
+    padding: 9px;
+}
+.pagination li.paginate_button  a{
+    font-size: 0.8rem;
+    padding: 5px;
+}
+.disabled_link{
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.7;
+    text-decoration: none;
+    pointer-events: none;
+}
+

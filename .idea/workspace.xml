@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b9dd485c-902a-4dbd-941c-6393b3e7f321" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/connecion_enterprise.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controller/admin/controller_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controller/admin/controller_admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controller/menus_core/core_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controller/menus_core/core_menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/lib_glob_const/libval.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/lib_glob_const/libval.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/terceros/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/terceros/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/terceros/js/listprincipal.js" beforeDir="false" afterPath="$PROJECT_DIR$/system/terceros/js/listprincipal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/terceros/js/new_edit_tercero.js" beforeDir="false" afterPath="$PROJECT_DIR$/system/terceros/js/new_edit_tercero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/terceros/controller/controller_terceros.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/terceros/controller/controller_terceros.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/terceros/view/listprincipal.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/terceros/view/listprincipal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/terceros/view/new_edit_tercero.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/terceros/view/new_edit_tercero.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,69 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="new_edit_tercero.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/terceros/js/new_edit_tercero.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2795">
-              <caret line="272" column="22" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!block;n#validationCedula#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/terceros/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1027">
-              <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_edit_tercero.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/terceros/view/new_edit_tercero.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2132">
-              <caret line="164" column="91" selection-start-line="164" selection-start-column="91" selection-end-line="164" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller_terceros.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system/terceros/controller/controller_terceros.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style_glob.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/style_glob.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller_admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controller/admin/controller_admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2327">
-              <caret line="179" column="57" lean-forward="true" selection-start-line="179" selection-start-column="57" selection-end-line="179" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -159,13 +88,13 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/application/lib_glob_const/libval.php" />
         <option value="$PROJECT_DIR$/system/login/controller/controller_login.php" />
-        <option value="$PROJECT_DIR$/system/terceros/view/listprincipal.php" />
         <option value="$PROJECT_DIR$/public/css/style_glob.css" />
         <option value="$PROJECT_DIR$/system/terceros/js/new_edit_tercero.js" />
         <option value="$PROJECT_DIR$/application/controller/admin/controller_admin.php" />
         <option value="$PROJECT_DIR$/system/terceros/index.php" />
         <option value="$PROJECT_DIR$/system/terceros/view/new_edit_tercero.php" />
         <option value="$PROJECT_DIR$/system/terceros/controller/controller_terceros.php" />
+        <option value="$PROJECT_DIR$/system/terceros/view/listprincipal.php" />
       </list>
     </option>
   </component>
@@ -185,18 +114,16 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="55" />
-    <option name="y" value="66" />
     <option name="width" value="1500" />
-    <option name="height" value="786" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,39 +131,11 @@
               <item name="appweb_gestion_inventario" type="b2602c69:ProjectViewProjectNode" />
               <item name="appweb_gestion_inventario" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="appweb_gestion_inventario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appweb_gestion_inventario" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appweb_gestion_inventario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appweb_gestion_inventario" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appweb_gestion_inventario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appweb_gestion_inventario" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appweb_gestion_inventario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appweb_gestion_inventario" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="terceros" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appweb_gestion_inventario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appweb_gestion_inventario" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="terceros" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,18 +205,18 @@
       <workItem from="1612025771511" duration="9144000" />
       <workItem from="1612063789676" duration="7231000" />
       <workItem from="1612122459358" duration="3506000" />
-      <workItem from="1612192114523" duration="1017000" />
+      <workItem from="1612192114523" duration="3176000" />
+      <workItem from="1612284280681" duration="353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164240000" />
+    <option name="totallyTimeSpent" value="166752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="66" width="1500" height="786" extended-state="1" />
-    <editor active="true" />
+    <frame x="55" y="0" width="1500" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30513176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30513176" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.0" />
@@ -341,19 +240,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27727857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292517" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -591,17 +490,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/terceros/view/listprincipal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/login/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/terceros/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/terceros/view/new_edit_tercero.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="159" column="6" lean-forward="true" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/terceros/view/listprincipal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -614,42 +527,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controller/admin/controller_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2327">
-          <caret line="179" column="57" lean-forward="true" selection-start-line="179" selection-start-column="57" selection-end-line="179" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/terceros/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1027">
-          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/terceros/view/new_edit_tercero.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2132">
-          <caret line="164" column="91" selection-start-line="164" selection-start-column="91" selection-end-line="164" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/terceros/js/new_edit_tercero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2795">
-          <caret line="272" column="22" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!block;n#validationCedula#0" />
-          </folding>
+        <state relative-caret-position="13">
+          <caret line="179" column="57" selection-start-line="179" selection-start-column="57" selection-end-line="179" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/terceros/controller/controller_terceros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        <state relative-caret-position="13">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/terceros/js/new_edit_tercero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="272" column="22" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#validationCedula#0" />
           </folding>
         </state>
       </provider>

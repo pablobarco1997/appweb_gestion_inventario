@@ -60,7 +60,7 @@
 
                 echo json_encode($output);
                 break;
-                
+
             case 'fetchTerceros':
 
                 $error = '';

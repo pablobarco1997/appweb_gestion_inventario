@@ -10,7 +10,12 @@
 
                 <div class="form-group col-sm-12 col-md-12" style="margin: 0px">
                     <ul class="list-inline list-inline-menu text-right border-bottom" style="margin: 0px">
-                        <li><a href="<?= DOCUMENT_HTTP.'/system/terceros/index.php?security='. KEY_SECURITY . '&view=new_edit_tercero' ?>" class="btn btn-link" id="addTerceros">
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-light " id="addTerceros">
+                                <i class="mdi mdi-printer"></i> Imprimir </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="<?= DOCUMENT_HTTP.'/system/terceros/index.php?security='. KEY_SECURITY . '&view=new_edit_tercero' ?>" class="btn btn-light " id="addTerceros">
                                 <i class="mdi mdi-account-plus"></i> Agregar Tercero </a>
                         </li>
                     </ul>
